@@ -95,7 +95,7 @@ jobs:
         run: |
           cd friendlywrt-h3/friendlywrt
           rm -f ./.config*
-          wget https://raw.githubusercontent.com/skytotwo/NanoPi-R1S-Build-By-Actions/master/r1s-h3-config
+          wget https://raw.githubusercontent.com/ligl0702/NanoPi-R1S-Build-By-Actions/master/r1s-h3-config
           cp r1s-h3-config .config
       
       - name: Download package
